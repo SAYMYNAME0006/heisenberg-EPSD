@@ -1,0 +1,178 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and fonts */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation */
+header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background:download.jpg;
+    color: black;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Destinations Section */
+#destinations {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #e98989;
+}
+
+#destinations h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.destination-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.destination-cards .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.destination-cards .card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.destination-cards .card h3 {
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+
+.destination-cards .card p {
+    padding: 0 20px 20px;
+}
+
+/* Packages Section */
+#packages {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#packages h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.package-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.package-cards .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+}
+
+.package-cards .card h3 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+}
+
+.package-cards .card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
